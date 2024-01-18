@@ -45,3 +45,12 @@ const person2 = {
 x = person2['first name'];
 
 console.log(x);
+
+const obj1 = {a: 1,b :2}
+const obj2 = {c: 3,d :4}
+const obj3 = {...obj1,...obj2}
+
+const cloneObj = {...obj1}
+cloneObj.c = 3
+console.log(cloneObj)
+console.log(cloneObj)
